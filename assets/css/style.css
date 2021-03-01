@@ -1,9 +1,8 @@
 
-body{
-       font-family: 'Roboto', sans-serif;
-       color:#black
-}
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+/*--------------------------------------------Colors*/
 
 
-/*-------header-----*/
+
 
