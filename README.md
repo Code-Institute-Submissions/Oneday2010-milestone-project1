@@ -16,8 +16,8 @@
 ## Features
 
 
-## Existing Features
-
+* ## Existing Features
+* ## Features left to implement
 
 ## Technologies Used
 * ### Languages Used
