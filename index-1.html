@@ -19,44 +19,58 @@
 
 
 <body>
-<!----header & nav--------------------------------------------->
+<!----header--------------------------------------------->
     <header>
         <div class="container fixed-top">
-         <nav>
-            <div class="row navbar navbar-light navbar-expand-sm bg-light">
+        
+            <div class="row">
                 <div class="col-sm-6 col-md-4">
 
-                        <div class="col-4">
+                        <div class="col heading">
                 
-                                <a href="index.html" class= "navbar-brand">
+                                <a href="index.html">
                                 <h2 class="name">Minjung Shin</h2>
                                 <h3 class="title">Full Stack Developer</h3>
                                 </a>
                         </div>
                     
-  
+            
                     
                 
-                    
-                    
-                        <div class="col-8">
-                                    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                                    <span class="navbar-toggler-icon"></span></button>
+                    <nav>
+                        
+                        <div class="menucontainer">
 
-                                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                                        <ul class="navbar-nav mr-auto">
-                                                <li class="active nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
-                                                <li class="nav-item mr-2"><a class="nav-link" href="">About</a></li>
-                                                <li class="nav-item mr-2"><a class="nav-link" href="">Resume</a></li>
-                                                <li class="nav-item mr-2"><a class="nav-link" href="">Contact</a></li>
-                                                                                          
-                                        </ul>
-                                    </div>
-                                   
+    
+                            <ul id="nav" class="list-inline">
+                                
+                                <li class="col-6 col-sm-3 list-inline-item  menuitem">
+                    
+                                            <a href="contact.html"><span>CONTACT</span></a>
+                                </li>
+                                <li class="col-6 col-sm-3 list-inline-item  menuitem">
+                    
+                                            <a href="resume.html"><span>RESUME</span></a>
+                                </li>
+                                   <li class="col-6 col-sm-3 list-inline-item   menuitem">
+                    
+                                            <a href="about.html"><span>ABOUT</span></a>
+                                </li>
+
+                                
+                                <li class="col-6 col-sm-3 list-inline-item menuitem">
+                    
+                                            <a class="active" href="index.html"><span>HOME</span></a>
+                                </li>
+
+                             
+                                
+                            </ul>
+                        </div>
+                    </nav>
                 </div>
             
             </div>
-          </nav>
         </div>    
     </header>
 
@@ -73,7 +87,7 @@
 
 <footer class="container-fluid fixed-bottom">
     <div id="footer-details" class="row  no-gutters">
-            <div class="col-sm-6 d-none d-md-block">
+            <div class="col-sm-6">
                <h5 class="uppercase general-sub">Download</h5>
                 <p class="inline-block">
 
