@@ -1,12 +1,8 @@
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-.container-fluid {
-    margin:0;
-    background-color:#c0c0c0 ;
-    width: 100%;
 
-}
+
 
 
 /*--------------------------------------------heading*/
@@ -45,9 +41,27 @@
 
 /*--------------------------------------------navigation links*/
 
+/*--------------------------------------------image*/
+.background-image {
 
+   
 
-
+    background-image: url('../images/bray.jpg')no-repeat center center; 
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+.jumbotron {
+    z-index: 1;
+    position: absolute ;
+    top:150px;
+   -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    background-color:transparent;
+}
 
 /*--------------------------------------------footer*/
 
