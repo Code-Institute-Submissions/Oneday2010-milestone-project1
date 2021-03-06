@@ -1,47 +1,36 @@
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
+.container-fluid {
+    margin:0;
+    background-color:#c0c0c0 ;
+    width: 100%;
 
+}
 
 
 /*--------------------------------------------heading*/
 
-header { 
-   
-
-    min-height: 120px;
-
-    margin: 0;
-
-   
-}
 
 
-
-    h2,h3 {  list-style-type: none;
-                text-transform: uppercase;
-                letter-spacing: 4px;
-
-        
-
-}
 
 .name{
        font-family: "Exo", sans-serif;
 
-    font-weight: 250;
+    font-weight: 350;
 
     font-size: 46px;
 
     margin-top: 0;
 
     color: #0e0c0c;
+    text-align: center;
 
 }
 .title{
     font-family: "Roboto", sans-serif;
 
-    font-weight: 250;
+    font-weight:280;
 
     font-size: 28px;
 
@@ -50,73 +39,23 @@ header {
     margin-bottom: 30px;
 
     color: #0e0c0c;
+        text-align: center;
+
 }
 
 /*--------------------------------------------navigation links*/
 
-.list-inline-item:not(:last-child) {
-
-    margin: 0;
-
-}
 
 
 
-.menucontainer {
-
-    font-size: 14px;
-   
-
-}
-
-
-
-#nav li {
-    
-     float :right;
-
-    font-size: 14px;
-
-    padding: 10px;
-
-}
-
-
-
-#nav {
-
-    margin: 0;
-
-}
-
-
-
-.menuitem {
-
-    height: 120px;
-
-    text-align: center;
-
-    padding: 0;
-
-}
-
-
-
-.menuitem a {
-
-    width: 100%;
-
-    text-decoration: none;
-
-    color: #0e0c0c;
-
-    height: 120px;
-
-}
 
 /*--------------------------------------------footer*/
 
+.list-inline-item:not(:last-child) {
+
+    margin: 0px;
+
+}
 footer {
 
     background-color: #e0dddd;
@@ -164,8 +103,13 @@ footer {
 .social-links {
 
     padding-bottom: 30px;
+}
+.list-inline {
+   
 
 }
+
+
 
 
 
