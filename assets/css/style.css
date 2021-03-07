@@ -42,25 +42,37 @@
 /*--------------------------------------------navigation links*/
 
 /*--------------------------------------------image*/
-.background-image {
+.bg-image-outer {
+    margin-top: 150px;
+     background: url("../images/homegirl.jpg");
 
-   
+    background-position: center;
 
-    background-image: url('../images/bray.jpg')no-repeat center center; 
-    -webkit-background-size: 100% 100%;
-    -moz-background-size: 100% 100%;
-    -o-background-size: 100% 100%;
-    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+    background-size: center;
+
+        transition: all .5s ease-in-out;
+
+    -moz-transition: all .5s ease-in-out;
+
+    -webkit-transition: all .5s ease-in-out;
 }
-.jumbotron {
-    z-index: 1;
-    position: absolute ;
-    top:150px;
-   -webkit-background-size: 100% 100%;
-    -moz-background-size: 100% 100%;
-    -o-background-size: 100% 100%;
-    background-size: 100% 100%;
+
+
+.jumbotron { 
     background-color:transparent;
+
+}
+/*--------------------------------------------about*/
+
+.about-outer {
+    margin-top: 150px;
+    text-align: center;
+
+}
+.aboutme-heading {
+    text-align: center;
 }
 
 /*--------------------------------------------footer*/
