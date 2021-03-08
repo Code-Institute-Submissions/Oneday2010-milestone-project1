@@ -9,7 +9,6 @@
 
 
 
-
 .name{
        font-family: "Exo", sans-serif;
 
@@ -39,6 +38,8 @@
 
 }
 
+
+
 /*--------------------------------------------navigation links*/
 
 /*--------------------------------------------image*/
@@ -66,14 +67,52 @@
 }
 /*--------------------------------------------about*/
 
+h4 { font-family: "Roboto", sans-serif;
+
+    font-weight: 350;
+
+
+    margin-top: 0;
+
+    color: #0e0c0c;
+
+}
+
+p {font-family: "Roboto", sans-serif;
+
+    font-weight: 350;
+
+
+    margin-top: 0;
+
+    color: #0e0c0c
+    
+}
+
+.about-1 {
+    margin-top: 30px;
+}
 .about-outer {
-    margin-top: 150px;
+    margin-top: 200px;
     text-align: center;
+    background-color: #e9d9d9;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
 
 }
 .aboutme-heading {
+   
+    font-family: "Exo", sans-serif;
+
+    font-weight: 400;
+
+    color: #0e0c0c;
     text-align: center;
 }
+
+
+
+
 
 /*--------------------------------------------footer*/
 
