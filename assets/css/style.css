@@ -8,6 +8,7 @@
 /*--------------------------------------------heading*/
 .home-outer {
     background-color: #EEE7F3;
+    margin:0;
 }
 
 
@@ -27,7 +28,7 @@
 .title{
     font-family: "Roboto", sans-serif;
 
-    font-weight:280;
+    font-weight:300;
 
     font-size: 28px;
 
@@ -48,9 +49,11 @@
     clear:right;
         margin-top: 150px;
         background: url("../images/homegirl.jpg") center no-repeat ;
-        height:100%;
+        height:95%;
         width:100%;
         position: absolute;
+        background-color:#EEE7F3;
+        margin:0;
         
   }
 
@@ -61,7 +64,7 @@
        position: relative;
        float: right;
        
-       margin:0 auto;
+       margin:0 30px;
        padding-top: 100px;
        margin-top: 20%;
        
@@ -78,36 +81,88 @@
 
 h4 { font-family: "Roboto", sans-serif;
 
-    font-weight: 350;
-
-
-    margin-top: 0;
-
-    color: #0e0c0c;
-
+    font-weight: 375;
+    margin-top: 20px;
+    color: #23002c;
+    font-style: italic;
+    margin-bottom: 10px;
+    text-align: left;
+    margin-left:10px;
 }
 
 p {font-family: "Roboto", sans-serif;
 
     font-weight: 350;
 
-
     margin-top: 0;
 
-    color: #0e0c0c
+    color: #23002c;
     
 }
 
 .about-1 {
-    margin-top: 30px;
+    margin-top: 10px;
+    line-height: 30px;
+  
+}
+.about-2 {
+    margin: 0;
+}
+
+.about-3 {
+ 
+    line-height: 30px;
+    margin-top: -30px;
+}
+
+.aboutme-sub-1 {
+   
+    margin:50px;
+     width: 300px;
+    height: 300px;
+    padding: 0.5%;
+    text-align: left;
+   
+}
+
+
+
+.aboutme-sub-2 {
+    
+    margin:50px;
+     width: 300px;
+    height: 300px;
+    padding: 0.5%;
+    text-align: left;
+  
+}
+.aboutme-sub-3 {
+    
+    margin:50px;
+     width: 300px;
+    height: 300px;
+    padding: 0.5%;
+    text-align: left;
+}
+.aboutme-sub-4 { 
+    
+    margin:50px;
+     width: 300px;
+    height: 300px;
+    padding: 0.5%;
+    text-align: left;
     
 }
+
+
+
+
 .about-outer {
-    margin-top: 200px;
-    text-align: center;
-  
-    font-family: "Roboto", sans-serif;
-    text-transform: uppercase;
+        margin-top: 150px;
+        text-align: center;
+        background-color: #EEE7F3;
+        font-family: "Roboto", sans-serif;
+        text-transform: uppercase;
 
 }
 .aboutme-heading {
@@ -116,15 +171,16 @@ p {font-family: "Roboto", sans-serif;
 
     font-weight: 400;
 
-    color: #0e0c0c;
+    color: #9c2406;
     text-align: center;
+    margin-top: 20px;
     
 }
 
 #center-image {
-     width: 300px;
-    height: 300px;
-    padding: 10px;
+     width: 350px;
+    height: 350px;
+    padding: 0;
     border-width: 1px;
     border-radius: 50%;
     margin: 0 auto;
@@ -132,13 +188,14 @@ p {font-family: "Roboto", sans-serif;
 #center-image-cover-bg {
     
     background-image: url("../images/homegirl.jpg"); 
-    background-color: #af3f3f; 
+    background-color: #aabd00; 
     height: 100%; 
     width:100%;
     background-position: center; 
     background-repeat: no-repeat;
     background-size: cover; 
     border-radius: 50%;
+
 
 }
 
