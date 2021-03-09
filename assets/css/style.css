@@ -6,7 +6,9 @@
 
 
 /*--------------------------------------------heading*/
-
+.home-outer {
+    background-color: #EEE7F3;
+}
 
 
 .name{
@@ -31,7 +33,7 @@
 
     margin-top: 20px;
 
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 
     color: #0e0c0c;
         text-align: center;
@@ -40,30 +42,37 @@
 
 
 
-/*--------------------------------------------navigation links*/
 
-/*--------------------------------------------image*/
+/*--------------------------------------------bg-image*/
 .bg-image-outer {
-    margin-top: 150px;
-     background: url("../images/homegirl.jpg");
-
-    background-position: center;
-
-    background-repeat: no-repeat;
-
-    background-size: center;
-
-        transition: all .5s ease-in-out;
-
-    -moz-transition: all .5s ease-in-out;
-
-    -webkit-transition: all .5s ease-in-out;
-}
+    clear:right;
+        margin-top: 150px;
+        background: url("../images/homegirl.jpg") center no-repeat ;
+        height:100%;
+        width:100%;
+        position: absolute;
+        
+  }
 
 
 .jumbotron { 
-    background-color:transparent;
+       background-color:#cc9ad6;
+       color: #fff;
+       position: relative;
+       float: right;
+       
+       margin:0 auto;
+       padding-top: 100px;
+       margin-top: 20%;
+       
+     }
+.lead {
+    color: #fff;
 
+     }
+.home-contect-btn {
+    float: right;
+    
 }
 /*--------------------------------------------about*/
 
@@ -91,11 +100,12 @@ p {font-family: "Roboto", sans-serif;
 
 .about-1 {
     margin-top: 30px;
+    
 }
 .about-outer {
     margin-top: 200px;
     text-align: center;
-    background-color: #e9d9d9;
+  
     font-family: "Roboto", sans-serif;
     text-transform: uppercase;
 
@@ -108,8 +118,29 @@ p {font-family: "Roboto", sans-serif;
 
     color: #0e0c0c;
     text-align: center;
+    
 }
 
+#center-image {
+     width: 300px;
+    height: 300px;
+    padding: 10px;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+#center-image-cover-bg {
+    
+    background-image: url("../images/homegirl.jpg"); 
+    background-color: #af3f3f; 
+    height: 100%; 
+    width:100%;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    border-radius: 50%;
+
+}
 
 
 
@@ -123,7 +154,7 @@ p {font-family: "Roboto", sans-serif;
 }
 footer {
 
-    background-color: #e0dddd;
+    background-color:#EEE7F3;
 
     color: #0e0c0c;
 
@@ -160,6 +191,7 @@ footer {
 .cv-pdf i:hover {
 
     color: #dd580b;
+    
 
 }
 
@@ -169,10 +201,8 @@ footer {
 
     padding-bottom: 30px;
 }
-.list-inline {
    
 
-}
 
 
 
