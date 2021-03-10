@@ -90,18 +90,20 @@ h4 { font-family: "Roboto", sans-serif;
     margin-left:10px;
 }
 
-p {font-family: "Roboto", sans-serif;
+p , .list {font-family: "Roboto", sans-serif;
 
-    font-weight: 350;
+    font-weight: 380;
 
     margin-top: 0;
 
     color: #23002c;
-    
+      
 }
 
+
+
 .about-1 {
-    margin-top: 10px;
+    margin-top: -10px;
     line-height: 30px;
   
 }
@@ -112,7 +114,8 @@ p {font-family: "Roboto", sans-serif;
 .about-3 {
  
     line-height: 30px;
-    margin-top: -30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .aboutme-sub-1 {
@@ -158,11 +161,13 @@ p {font-family: "Roboto", sans-serif;
 
 
 .about-outer {
-        margin-top: 150px;
-        text-align: center;
+        margin-top: 154px;
+       
+    
         background-color: #EEE7F3;
-        font-family: "Roboto", sans-serif;
+     
         text-transform: uppercase;
+     
 
 }
 .aboutme-heading {
@@ -178,8 +183,8 @@ p {font-family: "Roboto", sans-serif;
 }
 
 #center-image {
-     width: 350px;
-    height: 350px;
+     width: 330px;
+    height: 330px;
     padding: 0;
     border-width: 1px;
     border-radius: 50%;
