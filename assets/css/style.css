@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
+
 body {
     margin:0;
 }
@@ -9,12 +10,10 @@ body {
 
 /*--------------------------------------------heading*/
 .nav-outer {
-    margin:0;
- 
-
+    margin:-30px;
+    padding: 10px;
     background-color:#EEE7F3;
    
-
     
     
 }
@@ -27,7 +26,7 @@ body {
 
     font-size: 46px;
 
-    margin-top: 0;
+    margin-top: 10px;
 
     color: #0e0c0c;
     text-align: center;
@@ -35,20 +34,19 @@ body {
 }
 .title{
     font-family: "Roboto", sans-serif;
-
+    font-style: italic;
     font-weight:300;
 
     font-size: 28px;
 
-    margin-top: 20px;
-
-    margin-bottom: 20px;
-
-    color: #0e0c0c;
+       color: #0e0c0c;
         text-align: center;
 
 }
 
+.nav-style {
+    font-weight: 500;
+}
 
 
 
@@ -176,7 +174,7 @@ p , .list {font-family: "Roboto", sans-serif;
         margin-top: 154px;
        
     
-        background-color: #EEE7F3;
+        background-color: #fff;
      
         text-transform: uppercase;
      
@@ -222,7 +220,7 @@ p , .list {font-family: "Roboto", sans-serif;
 /*--------------------------------------------resume*/
 
 .bg-resume {
-    background-color: #EEE7F3;
+    background-color:#fff;
     height:75em;
    
     
@@ -341,17 +339,23 @@ p , .list {font-family: "Roboto", sans-serif;
 
 /*--------------------------------------------contact*/
 
-.form-group {
-   
-       
-       background-color:#7b2f88 ;
+.contact {
+   margin-top:200px;
+   margin-left: 50%;
+       background-color:#313031 ;
        opacity: 0.9;
        color: #fff;
       padding: 18px;
-     max-width: 50%;
+     max-width: 75%;
      text-align: center;
-      margin: 0 auto; 
+ 
      
+}
+
+.form-group {
+
+    font-size: 24px;
+
 }
 
 /*--------------------------------------------footer*/
@@ -359,21 +363,32 @@ p , .list {font-family: "Roboto", sans-serif;
 .list-inline-item:not(:last-child) {
 
     margin: 0px;
+    padding: 20px;
 
 }
 footer {
 
-    background-color:transparent;
+    background-color:#EEE7F3;
 
     color: #0e0c0c;
-
   
-
-    margin: 0;
+    margin: -30px;
     
     font-family: "Exo", sans-serif;
+    padding: 10px;
+    ;
 
 }
+
+
+.general-sub {
+    font-size: 24px;
+}
+
+.inline-block {
+    font-weight: 400;
+}
+
 
 .cv-pdf i {
 
@@ -384,6 +399,7 @@ footer {
     text-align: center;
 
     padding-left: 5px;
+    padding-top: 5px;
 
     transition: all 0.35s ease-in-out;
 
@@ -408,7 +424,7 @@ footer {
 
 .social-links {
 
-    padding-bottom: 30px;
+    padding-bottom: 10px;
 }
    
 
@@ -456,12 +472,6 @@ footer {
 }
 
 
-
-#footer-details {
-
-    padding: 20px;
-
-}
 
 
 
