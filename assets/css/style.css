@@ -88,87 +88,6 @@ body {
 }
 /*--------------------------------------------about*/
 
-h4 { font-family: "Roboto", sans-serif;
-
-    font-weight: 375;
-    margin-top: 20px;
-    color: #23002c;
-    font-style: italic;
-    margin-bottom: 10px;
-    text-align: left;
-    margin-left:10px;
-}
-
-p , .list {font-family: "Roboto", sans-serif;
-
-    font-weight: 380;
-
-    margin-top: 0;
-
-    color: #23002c;
-      
-}
-
-.about-1 {
-    margin: 0;
-}
-
-
-
-.about-2 {
-    margin-top: -10px;
-    line-height: 30px;
-  
-}
-
-.about-3 {
- 
-    line-height: 30px;
-    margin-top: 0;
-    margin-bottom: 20px;
-}
-
-.aboutme-sub-1 {
-   
-    margin:50px;
-     width: 300px;
-    height: 300px;
-    padding: 0.5%;
-    text-align: left;
-   
-}
-
-
-
-.aboutme-sub-2 {
-    
-    margin:50px;
-     width: 300px;
-    height: 300px;
-    padding: 0.5%;
-    text-align: left;
-  
-}
-.aboutme-sub-3 {
-    
-    margin:50px;
-     width: 300px;
-    height: 300px;
-    padding: 0.5%;
-    text-align: left;
-}
-.aboutme-sub-4 { 
-    
-    margin:50px;
-     width: 300px;
-    height: 300px;
-    padding: 0.5%;
-    text-align: left;
-    
-}
-
-
-
 
 .about-outer {
         margin-top: 154px;
@@ -180,7 +99,7 @@ p , .list {font-family: "Roboto", sans-serif;
      
 
 }
-.aboutme-heading {
+.about-image-heading {
    
     font-family: "Exo", sans-serif;
 
@@ -188,32 +107,29 @@ p , .list {font-family: "Roboto", sans-serif;
 
     color: #9c2406;
     text-align: center;
-    margin-top: 20px;
+    margin: 20px;
     
 }
 
-#center-image {
-     width: 330px;
-    height: 330px;
-    padding: 0;
-    border-width: 1px;
-    border-radius: 50%;
-    margin: 0 auto;
-}
-#center-image-cover-bg {
+
+.center-image-cover-bg {
     
-    background-image: url("../images/homegirl.jpg"); 
-    background-color: #aabd00; 
-    height: 100%; 
-    width:100%;
-    background-position: center; 
+    background-image: url("../images/homegirl.jpg");
+    position:center;
+    height: 300px; 
+    width:300px;
+ 
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: cover; 
+    background-size:cover; 
     border-radius: 50%;
-
+    
 
 }
 
+.about-item {
+    margin:30px;
+}
 
 
 
@@ -358,6 +274,14 @@ p , .list {font-family: "Roboto", sans-serif;
 
 }
 
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left:80px;
+    position: center;
+    font-size: 24px;
+}
+
 /*--------------------------------------------footer*/
 
 .list-inline-item:not(:last-child) {
@@ -471,8 +395,7 @@ footer {
 
 }
 
-
-
+/*--------------------------------------------Media Queries*/
 
 
 
