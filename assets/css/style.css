@@ -1,14 +1,22 @@
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-
+body {
+    margin:0;
+}
 
 
 
 /*--------------------------------------------heading*/
-.home-outer {
-    background-color: #EEE7F3;
+.nav-outer {
     margin:0;
+ 
+
+    background-color:#EEE7F3;
+   
+
+    
+    
 }
 
 
@@ -46,14 +54,17 @@
 
 /*--------------------------------------------bg-image*/
 .bg-image-outer {
-    clear:right;
-        margin-top: 150px;
-        background: url("../images/homegirl.jpg") center no-repeat ;
-        height:95%;
+
+      
+        background: url("../images/homegirl.jpg");
+         background-position: center; 
+        background-repeat: no-repeat;
+        background-size: cover; 
+        height:100%;
         width:100%;
         position: absolute;
-        background-color:#EEE7F3;
-        margin:0;
+       background-attachment: fixed;
+        margin-top: 100px;
         
   }
 
@@ -65,10 +76,8 @@
        color: #fff;
        position: relative;
        float: right;
-       
-       margin:0 30px;
-       padding-top: 100px;
-       margin-top: 20%;
+        padding: 30px;
+       margin: 18% 3% 20% 30%;
        
      }
 .lead {
@@ -332,15 +341,16 @@ p , .list {font-family: "Roboto", sans-serif;
 
 /*--------------------------------------------contact*/
 
-.contact {
-       margin:500px;
+.form-group {
+   
        
        background-color:#7b2f88 ;
        opacity: 0.9;
        color: #fff;
-       padding: 40px;
-     
-       
+      padding: 18px;
+     max-width: 50%;
+     text-align: center;
+      margin: 0 auto; 
      
 }
 
@@ -353,11 +363,11 @@ p , .list {font-family: "Roboto", sans-serif;
 }
 footer {
 
-    background-color:#EEE7F3;
+    background-color:transparent;
 
     color: #0e0c0c;
 
-    min-height: 120px;
+  
 
     margin: 0;
     
