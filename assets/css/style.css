@@ -98,7 +98,7 @@ body {
      
 
 }
-.about-image-heading {
+.aboutme-heading {
    
     font-family: "Exo", sans-serif;
 
@@ -110,24 +110,40 @@ body {
     
 }
 
+.center-container{
+width: 350px;
+height:350px;
+padding: 10px;
+border-style:solid;
+border-color:#ecdfdf;
+border-radius: 50%;
+
+margin: 0 auto;
+}
+
+
 
 .center-image-cover-bg {
     
     background-image: url("../images/homegirl.jpg");
     position:center;
-    height: 300px; 
-    width:300px;
- 
+    height:100%; 
+    width:100%;
+    
+    border-radius: 50%;
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover; 
-    border-radius: 50%;
-    
 
+}
+.about-text-outer {
+    border: 5px 
 }
 
 .about-item {
-    margin:30px;
+    margin:50px;
+    text-align: left;
+    border: 5px 
 }
 
 
@@ -136,9 +152,7 @@ body {
 
 .bg-resume {
     background-color:#fff;
-    height:75em;
-   
-    
+    height: 50vh;
 }
 
 
