@@ -4,6 +4,7 @@
 
 body {
     margin:0;
+    padding: 0;
 }
 
 
@@ -23,9 +24,9 @@ body {
 
     font-weight: 350;
 
-    font-size: 46px;
+    font-size: 32px;
 
-    margin-top: 10px;
+    margin-top: 30px;
 
     color:#e0dddd;
     text-align: center;
@@ -36,7 +37,7 @@ body {
     font-style: italic;
     font-weight:300;
 
-    font-size: 28px;
+    font-size: 22px;
 
        color:#e0dddd;
 ;
@@ -53,46 +54,54 @@ body {
 
 /*--------------------------------------------bg-image*/
 .bg-image-outer {
-
-      
-        background: url("../images/homegirl.jpg");
-         background-position: center; 
-        background-repeat: no-repeat;
-        background-size: cover; 
-        height:100%;
-        width:100%;
-        position: absolute;
-       background-attachment: fixed;
-        margin-top: 100px;
-        
+    margin:0 ;
+    padding:0 ;
+    background: url("../images/laptop.jpg");
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0.8;
+                
+                
   }
+
 
 .home { 
       
-       background-color:#7b2f88;
-       opacity: 0.8;
+       background-color:#e2a31b;
+       opacity: 0.9;
        color: #fff;
        position: relative;
-       float: right;
-        padding: 30px;
-       margin: 18% 3% 20% 30%;
-       
+       margin-top:126px;
+       padding: 22px;
+       text-align: center;
+    
      }
+.jumbotron-text {
+    font-weight: 300;
+     font-family: "Roboto", sans-serif;
+}
+
 .lead {
     color: #fff;
 
      }
-.home-contect-btn {
-    float: right;
+
+  
     
-}
 /*--------------------------------------------about*/
 
 
 .about-outer {
-        margin-top: 130px;
+    
+        margin-top: 126px;
+        padding-top: 80px;
        color: #e0dddd;
-    height: 150vh;
+    height:90vh;
+
         background-color: #2e2b2b;
      
         text-transform: uppercase;
@@ -105,7 +114,7 @@ body {
 
     font-weight: 400;
 
-    color: #c2300b;
+    color: #f8edd5;
     text-align: center;
     margin: 20px;
     
@@ -118,8 +127,7 @@ padding: 10px;
 border-style:solid;
 border-color:#ecdfdf;
 border-radius: 50%;
-
-margin: 0 auto;
+margin:0 auto;
 }
 
 
@@ -152,10 +160,11 @@ margin: 0 auto;
 /*--------------------------------------------resume*/
 
 .bg-resume {
-   margin-top:130px;
+   margin-top:126px;
+   padding-top: 80px;
     background-color:#2e2b2b;
     color:#e0dddd;
-    height: 150vh;
+    height:90vh;
 }
 
 
@@ -284,9 +293,25 @@ margin: 0 auto;
      
 }
 
+.contact-bg {
+     background: url("../images/orange.jpg");
+         background-position: center; 
+        background-repeat: no-repeat;
+        background-size:cover;
+        width: 100%;
+        height: 100%;
+         position: absolute;
+       background-attachment: fixed;
+        margin-top:126px;
+        opacity: 0.9;
+
+   
+}
+
 .form-group {
 
-    font-size: 24px;
+    font-size: 21px;
+    margin:0;
 
 }
 
@@ -300,6 +325,8 @@ button[type="submit"] {
 
 /*--------------------------------------------footer*/
 
+
+
 .list-inline-item:not(:last-child) {
 
     margin: 0px;
@@ -308,7 +335,7 @@ button[type="submit"] {
 }
 footer {
 
-    background-color:#2e2b2b;
+    background-color:transparent;
 
     color: #e0dddd;
   
@@ -322,11 +349,12 @@ footer {
 
 
 .general-sub {
-    font-size: 24px;
+    font-size: 22px;
+    font-weight: 350;
 }
 
 .inline-block {
-    font-weight: 400;
+    font-weight: 300;
 }
 
 
