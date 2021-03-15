@@ -294,7 +294,7 @@ margin:0 auto;
 }
 
 .contact-bg {
-     background: url("../images/orange.jpg");
+     background: url("../images/typing.jpg");
          background-position: center; 
         background-repeat: no-repeat;
         background-size:cover;
@@ -303,7 +303,7 @@ margin:0 auto;
          position: absolute;
        background-attachment: fixed;
         margin-top:126px;
-        opacity: 0.9;
+        opacity: 0.8;
 
    
 }
