@@ -1,6 +1,6 @@
 # Minjung Shin portfolio 
 
-[view the live project here]() <!-- real website link should be here-->
+[view the live project here](https://oneday2010.github.io/milestone-project1/) 
 
 ### This is personal portfolio website for Minjung Shin. It is designed to be responsible and accessible on a range of devices, making it easy to navigate for potential employs and clients. 
 
@@ -69,11 +69,9 @@ Use bootstrap4/font awesome version. It used on all pages throughout the website
 ## Testing   <!-- Still need to work on it-->
 
 * ### Testing User Stories from User Experience (UX) section
-* * First Time Visitor Goals
-* * Returning visitor Goals
-* * Frequent User Goals
-* ### Further Testing
-* ### Known Bugs
+* * W3C Markup Validator - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Foneday2010.github.io%2Fmilestone-project1%2F)
+* * W3C CSS Vaildator - [Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Foneday2010.github.io%2Fmilestone-project1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
 
 
 ## Deployment
