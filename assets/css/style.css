@@ -39,7 +39,7 @@
 .title{
     font-family: "Roboto", sans-serif;
     font-style: italic;
-    font-weight:350;
+    font-weight:300;
 
     font-size: 22px;
 
@@ -99,15 +99,23 @@
   
     
 /*--------------------------------------------about*/
+.about-nav-outer {
 
+    margin:0;
+   
+    background-color:#2e2b2b;
+    text-transform: uppercase;
+  
+
+}
 
 .about-outer {
     
-       
-        padding-top: 80px;
+      
+        padding-top: 110px;
        color: #e0dddd;
-    height:150vh;
-
+        height:120vh;
+        
         background-color: #2e2b2b;
      
         text-transform: uppercase;
@@ -141,7 +149,7 @@ margin:0 auto;
 .center-image-cover-bg {
     
     background-image: url("../images/homegirl.jpg");
-    position:center;
+    
     height:100%; 
     width:100%;
     
@@ -163,18 +171,28 @@ margin:0 auto;
 
 .about-item-title {
     color:#fcba2c;
-    font: weight 300; ;
+    font-weight:300; 
 }
 
 
 /*--------------------------------------------resume*/
+.resume-nav-outer {
+     margin:0 auto;
+   
+    background-color:#2e2b2b;
+    
+    text-transform: uppercase;
+  
 
+}
 .bg-resume {
    margin:0;
-   padding-top: 80px;
+   padding-top: 120px;
+   padding-left: 30px;
     background-color:#2e2b2b;
+
     color:#e0dddd;
-    height:130vh;
+    height:110vh;
 }
 
 
@@ -241,6 +259,7 @@ margin:0 auto;
 }
 .resume-personalinfo {
     margin-top: 30px;
+    padding-left: 30px;
 }
 .personal-info-item {
     margin-bottom: 20px;
@@ -292,6 +311,7 @@ margin:0 auto;
 
 .progress-section {
     margin: 150px 20px 10px 10px;
+    padding-left: 30px;
 
 }
 
@@ -300,16 +320,12 @@ margin:0 auto;
 .contact {
    margin:200px auto;
    max-width: 70%;
-   
-       background-color:#313031 ;
-       opacity: 0.9;
-       color: #fff;
-      padding: 18px;
- 
-     text-align:left;
- 
-     
-}
+   background-color:#313031 ;
+    opacity: 0.9;
+    color: #fff;
+    padding: 18px;
+    text-align:left;
+      }
 
 .contact-bg {
      background: url("../images/typing.jpg");
@@ -328,7 +344,7 @@ margin:0 auto;
 }
 
 .contact-title {
-    font-weight: 350;
+    font-weight: 300;
     font-family: "Roboto", sans-serif;
     padding: 10px;
     text-align: center;
@@ -348,8 +364,6 @@ margin:0 auto;
 button[type="submit"] {
     margin-top: 15px;
     margin-bottom: 10px;
-    
-    position: center;
     font-size: 24px;
 }
 
@@ -363,7 +377,7 @@ button[type="submit"] {
     padding: 10px;
 
 }
-footer {
+.footer-details {
 
     background-color:transparent;
     color: #e0dddd;
@@ -372,10 +386,19 @@ footer {
     
 }
 
+.footer-details-page {
+      background-color:#2e2b2b;
+    color: #e0dddd;
+    font-family: "Exo", sans-serif;
+    padding: 10px;
+    
+
+}
+
 
 .general-sub {
     font-size: 22px;
-    font-weight: 350;
+    font-weight: 300;
 }
 
 .inline-block {
