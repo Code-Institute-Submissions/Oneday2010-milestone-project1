@@ -10,6 +10,7 @@
 
 .nav-frame {
     border: 0px;
+    ;
 }
 
 .nav-outer {
@@ -20,6 +21,13 @@
   
     
 }
+
+.nav-style {
+    font-weight: 500;
+    color:#e0dddd;
+    
+}
+
 
 
 .name{
@@ -43,15 +51,11 @@
     font-size: 22px;
 
        color:#e0dddd;
-;
+
         text-align: center;
 
 }
 
-.nav-style {
-    font-weight: 500;
-    color:#e0dddd;
-}
 
 
 
@@ -102,7 +106,7 @@
 /*--------------------------------------------about*/
 .about-nav-outer {
 
-    margin:0 auto;
+    margin:0;
    
     background-color:#2e2b2b;
     text-transform: uppercase;
@@ -179,15 +183,17 @@ margin:0 auto;
 
 
 /*--------------------------------------------resume*/
-.resume-nav-outer {
-     margin:0 auto;
-   padding: 0px;
-    background-color:#2e2b2b;
-    
-    text-transform: uppercase;
-  
 
-}
+  .resume-nav-outer {
+
+    margin:0 auto;
+   
+    background-color:#2e2b2b;
+    text-transform: uppercase;
+   width: 100%;
+    height: 100%;
+
+   }
 .bg-resume {
    margin:0px auto;
    
@@ -508,19 +514,251 @@ button[type="submit"] {
 
 /*--------------------------------------------Media Queries*/
 
-@media(min-width:992px) {
 
-    .contact {
-   margin:200px auto;
+@media only screen and (max-width: 600px) 
+
+/*--------------------------------------------Media Queries-home*/
+{  .contact {
+   margin:250x auto;
    max-width: 50%;
    background-color:#313031 ;
    color: #fff;
-      padding: 30px;
-    min-height: 240px;
+      padding: 20px;
+    min-height: 100px;
      text-align:left;
     }
- 
+  
+.home {
+   margin: 0 5%;
+      background-color:#e2a31b ;
+   color: #fff;
+      padding: 8px;
+     text-align:center;
+     
+     
+        }
+ .name{
+       font-family: "Exo", sans-serif;
+
+    font-weight: 400;
+
+    font-size: 18px;
+
+    margin-top: 0px;
+
+    color:#e0dddd;
+    text-align: center;
+
+}
+.title{
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    font-weight:300;
+
+    font-size: 15px;
+
+       color:#e0dddd;
+
+        text-align: center;
 
 }
 
+.jumbotron-text {
+    font-size: 20px;
+    font-weight: 300;
+}
+.lead {
+    font-size: 17px;
+}
 
+/*--------------------------------------------Media Queries-about*/
+
+.aboutme-heading {
+   
+    font-family: "Exo", sans-serif;
+
+    font-weight: 400;
+    font-size: 25px;
+    color: #f8edd5;
+    text-align: center;
+    margin: 20px;
+    
+}
+
+.center-container{
+width: 250px;
+height:250px;
+padding: 10px;
+border-style:solid;
+border-color:#ecdfdf;
+border-radius: 50%;
+margin:0 auto;
+}
+
+
+
+.center-image-cover-bg {
+    
+    background-image: url("../images/homegirl.jpg");
+    
+    height:100%; 
+    width:100%;
+    
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover; 
+
+}
+.about-text-outer {
+    border: 5px 
+}
+
+.about-item {
+    margin:50px;
+    text-align: left;
+    border: 5px 
+}
+
+.about-item-title {
+    color:#fcba2c;
+    font-weight:300; 
+    font-size: 22px;
+}
+
+/*--------------------------------------------Media Queries-resume*/
+
+.bg-resume {
+   margin:0px auto;
+   
+   padding-left: 30px;
+    background-color:#2e2b2b;
+    background-size: cover;
+    padding-bottom: 600px;
+     
+     
+    color:#e0dddd;
+    
+}
+
+
+.history-heading {
+    
+    margin-bottom: 50px;
+}
+
+.resume-title {
+    color:#fcba2c;
+    text-align: left;
+    padding: 20px;
+    font-weight: 300;
+}
+
+
+.timeline-item {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    color: #fff;
+    border-left: 1px solid;
+}
+
+.timeline-item p {
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:before {
+    content: attr(data-dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background: #fcba2c;
+}
+
+.history-items {
+    margin-bottom: 30px;
+}
+
+.uppercase { 
+    text-transform: uppercase;
+
+}
+.resume-workhistory {
+    margin-top: 200px; 
+}
+.resume-personalinfo {
+    margin-top: 200px;
+    padding-left: 30px;
+}
+.personal-info-item {
+    margin-bottom: 20px;
+    display: block;
+    clear: both;
+}
+
+.personal-info-item .info,
+.personal-info-item .detail {
+    padding-right: 8px;
+    display: inline-block;
+}
+
+.personal-info-item .info p,
+.personal-info-item .detail p {
+    margin: 0;
+}
+
+.personal-info-item .info {
+    width: 30%;
+    margin-right: 21px;
+    padding-top: 2px;
+    vertical-align: top;
+}
+
+.personal-info-item .info p {
+    font-weight: 700;
+}
+
+.personal-info-item .detail {
+    position: relative;
+    width: 60%;
+}
+
+.progress {
+    position: relative;
+    height: 40px;
+    margin-bottom: 4px;
+}
+
+.progress-type {
+    position: absolute;
+    left: 0px;
+    font-weight: 400;
+    padding: 10px 30px 10px 10px;
+    color: #fafafa;
+    background-color: rgba(25, 25, 25, 0.2);
+}
+
+.progress-section {
+    margin: 150px 20px 10px 10px;
+    padding-left: 30px;
+
+}
+
+}
