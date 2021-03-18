@@ -2,11 +2,11 @@
 
 
 
-
-
 /*--------------------------------------------heading*/
             
-  
+.nav-total-outer  {
+    padding: 0px;
+}
 
 .nav-frame {
     border: 0px;
@@ -15,6 +15,7 @@
 
 .nav-outer {
     margin:0 auto;
+    padding: 0;
    
     background-color: transparent;
     text-transform: uppercase;
@@ -107,7 +108,7 @@
 .about-nav-outer {
 
     margin:0;
-   
+      padding: 0;
     background-color:#2e2b2b;
     text-transform: uppercase;
    width: 100%;
@@ -116,13 +117,10 @@
 }
 
 .about-outer {
-    
-      
-        padding-top: 110px;
-       color: #e0dddd;
-       padding-bottom: 280px;
-        
-        background-color: #2e2b2b;
+    margin-top: 100px;
+    color: #e0dddd;
+     padding-bottom: 100px;
+    background-color: #2e2b2b;
        
      
         text-transform: uppercase;
@@ -142,8 +140,8 @@
 }
 
 .center-container{
-width: 350px;
-height:350px;
+width: 300px;
+height:300px;
 padding: 10px;
 border-style:solid;
 border-color:#ecdfdf;
@@ -187,7 +185,7 @@ margin:0 auto;
   .resume-nav-outer {
 
     margin:0 auto;
-   
+   color: #fafafa;
     background-color:#2e2b2b;
     text-transform: uppercase;
    width: 100%;
@@ -195,14 +193,13 @@ margin:0 auto;
 
    }
 .bg-resume {
-   margin:0px auto;
+   margin:0px;
+   padding: 0px 0px 500px 0px;
    
-   padding-left: 30px;
+  
     background-color:#2e2b2b;
-    background-size: cover;
-    padding-bottom: 600px;
-     
-     
+  
+             
     color:#e0dddd;
     
 }
@@ -216,7 +213,7 @@ margin:0 auto;
 .resume-title {
     color:#fcba2c;
     text-align: left;
-    padding: 20px;
+    padding: 18px;
     font-weight: 300;
 }
 
@@ -260,6 +257,7 @@ margin:0 auto;
 
 .history-items {
     margin-bottom: 30px;
+    padding-left: 20px;
 }
 
 .uppercase { 
@@ -267,10 +265,13 @@ margin:0 auto;
 
 }
 .resume-workhistory {
-    margin-top: 200px; 
+    margin-top: 180px; 
+     padding-left: 30px;
+     
 }
 .resume-personalinfo {
     margin-top: 200px;
+    margin-left: 30px;
     padding-left: 30px;
 }
 .personal-info-item {
@@ -515,9 +516,11 @@ button[type="submit"] {
 /*--------------------------------------------Media Queries*/
 
 
-@media only screen and (max-width: 600px) 
+
 
 /*--------------------------------------------Media Queries-home*/
+
+@media only screen and (max-width: 600px) 
 {  .contact {
    margin:250x auto;
    max-width: 50%;
@@ -572,7 +575,17 @@ button[type="submit"] {
 }
 
 /*--------------------------------------------Media Queries-about*/
+.about-outer {
+    margin-top: 81px;
+    color: #e0dddd;
+     
+    background-color: #2e2b2b;
+       
+     
+        text-transform: uppercase;
+     
 
+}
 .aboutme-heading {
    
     font-family: "Exo", sans-serif;
@@ -597,27 +610,13 @@ margin:0 auto;
 
 
 
-.center-image-cover-bg {
-    
-    background-image: url("../images/homegirl.jpg");
-    
-    height:100%; 
-    width:100%;
-    
-    border-radius: 50%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:cover; 
-
-}
-.about-text-outer {
-    border: 5px 
-}
 
 .about-item {
     margin:50px;
     text-align: left;
-    border: 5px 
+    border: 5px ;
+   
+    
 }
 
 .about-item-title {
@@ -626,139 +625,11 @@ margin:0 auto;
     font-size: 22px;
 }
 
+.about-text-outer {
+    border: 5px;
+     padding-bottom: 70px;
+}
+
 /*--------------------------------------------Media Queries-resume*/
-
-.bg-resume {
-   margin:0px auto;
-   
-   padding-left: 30px;
-    background-color:#2e2b2b;
-    background-size: cover;
-    padding-bottom: 600px;
-     
-     
-    color:#e0dddd;
-    
-}
-
-
-.history-heading {
-    
-    margin-bottom: 50px;
-}
-
-.resume-title {
-    color:#fcba2c;
-    text-align: left;
-    padding: 20px;
-    font-weight: 300;
-}
-
-
-.timeline-item {
-    padding: 4em 2em 0em 2em;
-    position: relative;
-    color: #fff;
-    border-left: 1px solid;
-}
-
-.timeline-item p {
-    padding: 0;
-    margin: 0;
-}
-
-.timeline-item:before {
-    content: attr(data-dates);
-    position: absolute;
-    left: 2.5em;
-    top: 3em;
-    display: block;
-    font-family: "Exo", sans-serif;
-    font-weight: 500;
-    font-size: 0.8em;
-    padding: 0;
-    margin: 0;
-}
-
-.timeline-item:after {
-    width: 12px;
-    height: 12px;
-    display: block;
-    top: 2.4em;
-    position: absolute;
-    left: -6px;
-    border-radius: 12px;
-    content: '';
-    background: #fcba2c;
-}
-
-.history-items {
-    margin-bottom: 30px;
-}
-
-.uppercase { 
-    text-transform: uppercase;
-
-}
-.resume-workhistory {
-    margin-top: 200px; 
-}
-.resume-personalinfo {
-    margin-top: 200px;
-    padding-left: 30px;
-}
-.personal-info-item {
-    margin-bottom: 20px;
-    display: block;
-    clear: both;
-}
-
-.personal-info-item .info,
-.personal-info-item .detail {
-    padding-right: 8px;
-    display: inline-block;
-}
-
-.personal-info-item .info p,
-.personal-info-item .detail p {
-    margin: 0;
-}
-
-.personal-info-item .info {
-    width: 30%;
-    margin-right: 21px;
-    padding-top: 2px;
-    vertical-align: top;
-}
-
-.personal-info-item .info p {
-    font-weight: 700;
-}
-
-.personal-info-item .detail {
-    position: relative;
-    width: 60%;
-}
-
-.progress {
-    position: relative;
-    height: 40px;
-    margin-bottom: 4px;
-}
-
-.progress-type {
-    position: absolute;
-    left: 0px;
-    font-weight: 400;
-    padding: 10px 30px 10px 10px;
-    color: #fafafa;
-    background-color: rgba(25, 25, 25, 0.2);
-}
-
-.progress-section {
-    margin: 150px 20px 10px 10px;
-    padding-left: 30px;
-
-}
 
 }
