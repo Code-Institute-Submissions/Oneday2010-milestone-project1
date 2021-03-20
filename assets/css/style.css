@@ -534,7 +534,7 @@ button[type="submit"] {
 
 /*------------------------------------------------------------------------------------Media Queries*/
 
-@media only screen and (max-width: 600px) 
+@media only screen and (max-width: 400px) 
 { 
 
 /*--------------------------------------------Media Queries-home*/
@@ -725,7 +725,7 @@ button[type="submit"] {
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 400px) {
 
 /*----------------------------Media Queries-nav*/
      .name{
