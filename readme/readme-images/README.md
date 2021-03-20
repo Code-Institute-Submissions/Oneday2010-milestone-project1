@@ -154,6 +154,8 @@ Ensured the website was also responsive on all the pages [Google Mobile Friendly
  1) Bug found after load the website in different browser. I tested Chrome,Safari and Firefox with Iphone 11. There is no issue with Chrome browser,however, it shows navbar and body separations on Safari and Firefox brower. 
 no funntional failure all the browser though. 
 
+ 2) texting form data used the [link](https://formdump.codeinstitute.net)" <form action="https://formdump.codeinstitute.net" method="POST">". The input data when to the link and I was able to see the data was send to correctly.
+ 
 
 
 ## Deployment
