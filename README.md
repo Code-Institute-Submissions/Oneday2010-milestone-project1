@@ -51,6 +51,13 @@ This is Minjung Shin’s personal portfolio. The main aim is clear that deliver 
 ## UX
 ### User experience
 ---
+
+---
+
+
+
+### Strategy
+---
 * ### User stories
 
 #### Main target user : Employer /Client /Recruiter 
@@ -62,7 +69,23 @@ Therefore, I want to make the website that users are easily understand and catch
 
 
 
-* ### Design
+
+
+
+### Scope
+---
+
+
+### structure
+---
+
+
+### Skeleton
+---
+
+### Surface
+---
+ ### Design
 
   - Color Scheme : Mainly Black and white. And use bright yellow color to emphasis some of headlines. 
 
@@ -71,6 +94,14 @@ Therefore, I want to make the website that users are easily understand and catch
 
 
   -  Imagery : I used three images. First one with simply and modern style laptop, small illustration of girl and programming hands. I tried to all the concepts are related with each pages. 
+
+
+
+
+
+
+
+
 
 * ### Wireframes
 This website have four pages. The wireframes do not match with my final projext exactly, however, I can say almost as planed. 
@@ -145,9 +176,10 @@ As a First time visitor, I want to deliver clear message to the user that what i
  - Forms testing: To make sure the website was working as it supposed to be. I tested form on CONTACT page tried input diffrent information on name/email/project section. when I tired input wrong formet of email section I got warning to make sure input right form of email. 
  also, each form is required to be filled to send, as well as I tried to check the data is going right link, use below link. 
 
-texting form data used the [link](https://formdump.codeinstitute.net)
+texting form data used the [link](https://formdump.codeinstitute.net),
  
   <form action="https://formdump.codeinstitute.net" method="POST">. The input data when to the link and I was able to see the data was send to correctly.
+   After I just tested and edit "contact page" HTML code, make sure there is no error. 
 
  ![form test](assets/docs/images/form-test.png)
  - Links : I checked all the links directed to desired location. Such as all nav links well linked as well as social links are well too. One thing I would like to metion it is each social link (facebook,linkedin,instagram,wordpress)are real my personal link. I used my real personal link to make the portapolio looks trustworthy. 
@@ -181,10 +213,24 @@ texting form data used the [link](https://formdump.codeinstitute.net)
 
 
  #### Validation
- - W3C Markup Validator : I found some error on the valiation, fixed the mistake.
+ - [W3C Markup Validator](https://validator.w3.org/) : 
+ When I first tried to the validate my HTML, I got stray line error which I didn't understand. I finally realise that I allocate </footor> under  </body>. all other error also, sorted. 
+
  ![W3C Markup Validator](assets/docs/images/w3c-markup-validator.png)
- - W3C CSS Vaildator : I wasn't clear about the error. I need further help to fixed the error. 
- ![W3C CSS Validator](assets/docs/images/w3c-css-vaildator.png)
+
+ There was no further issues.
+
+ - [W3C CSS Vaildator](https://jigsaw.w3.org/css-validator/) 
+ ![W3C CSS Validator](assets/docs/images/w3c-css-validator.png)
+ ![W3C CSS Validator](assets/docs/images/w3c-css-validator-2.png)
+
+
+
+
+
+
+
+
 
 #### project bug and solution
 ![bug1](assets/docs/images/project-bug1.png)
@@ -209,7 +255,15 @@ no functional failure all the browser. When user touch the apart from nav, the c
 
 ## Deployment
 ---
-GitHub pages -> This project was deployed to GitHub pages. My Github pages site is bulit from master brunch on milestone-project1.
+1)Firstly I create the account part of my CSS course on code institute. After practicing mini project, I could get idea to use Gitpod as well as GitHub. I created new repository to start my project and put name as “milestone-project1”
+
+2)After get my own repository for my project I start work all coding and update all my files on Gitpod. 
+
+3)Gitpod, a cloud-based version control software or IDE was used to write all code for this project. 
+
+4)Each day when I done, I save the data and when all the work was done, I went to Github pages and check the setting menu and found the Github pages. I selected the Master Branch and it automatically create URL address. 
+
+5)To access the code,, I can get clone which provides an URL and I can use my phone or any device, or download as zip file on the device.  - 
 
 
 
@@ -217,8 +271,8 @@ GitHub pages -> This project was deployed to GitHub pages. My Github pages site 
 ---
 * ### Content
 
-most of contents are original from myself. However, there are coding help from Code institute course User Centric Frontend Development -> resume-miniproject-bootstrap4. 
-Especially "Work history"/"My Skill" from the course were great help.  
+Most of contents are original from myself. However, there are coding help from Code institute course User Centric Frontend Development -> resume-miniproject-bootstrap4. 
+Especially "Work history"/"My Skill" from the course were great help.  I got many good idea from [w3school](https://www.w3schools.com/html/html5_semantic_elements.asp).
 
 
 * ### Media
