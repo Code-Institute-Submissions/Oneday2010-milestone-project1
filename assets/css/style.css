@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700");
 
+body,html {
+    width: 100%;
+    height: 100%;
+
+}
 /*--------------------------------------------heading*/
 /*----------------------------nav*/
 .nav-total-outer {
@@ -84,6 +89,9 @@
     font-size: 24px;
     font-weight: 300;
     color: #fff;
+}
+.jumbotron-btn {
+    font-size: 24px;
 }
 
 /*--------------------------------------------about*/
@@ -426,10 +434,10 @@ button[type="submit"] {
 
 /*------------------------------------------------------------------------------------Media Queries*/
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 600px) {
     /*------------------------------------------------------------Media Queries-home-max-width:400px*/
 
-    /*----------------------------Media Queries-nav-max-width:400px*/
+    /*----------------------------Media Queries-nav-max-width:600px*/
     .name {
        
         font-size: 18px;
@@ -443,7 +451,7 @@ button[type="submit"] {
         
     }
 
-    /*----------------------------Media Queries-jumbotron-max-width:400px*/
+    /*----------------------------Media Queries-jumbotron-max-width:600px*/
 
     .home {
        
@@ -461,7 +469,11 @@ button[type="submit"] {
         font-weight: 200;
     }
 
-    /*--------------------------------------------Media Queries-about-max-width:400px*/
+    .jumbotron-btn {
+    font-size: 14px;
+    }
+
+    /*--------------------------------------------Media Queries-about-max-width:600px*/
    .about-outer {
         margin-top: 81px;
        
@@ -496,7 +508,7 @@ button[type="submit"] {
     }
 
 
-    /*--------------------------------------------Media Queries-resume-max-width:400px*/
+    /*--------------------------------------------Media Queries-resume-max-width:600px*/
     .resume-title {
       
         padding: 5px;
@@ -511,38 +523,55 @@ button[type="submit"] {
         font-size: 12px;
     }
 
-    /*--------------------------------------------Media Queries-contact-max-width:400px*/
+    /*--------------------------------------------Media Queries-contact-max-width:600px*/
 
     .contact {
-        padding: 5px;
+        padding: 10px;
+        max-width: 90%;
+        margin-top: 15px;
+         
 
     }
-
+  
     .contact-title {
         
-        padding: 5px;
-        font-size: 18px;
+        padding: 0px;
+        font-size: 20px;
     }
 
     .form-group {
-        font-size: 15px;
+        font-size: 12px;
     }
-        
-
+    
     button[type="submit"] {
         width:100px;
-        height:33px;
+        height:40px;
         margin-top: 10px;
         margin-bottom: 5px;
         padding: 5px;
-        font-size: 13px;
+        font-size: 18px;
+        vertical-align: middle;
     }
-}
-/*----------------------------------------------------------------------------------------Media Queries-min-width:400px*/
-/* Small devices (portrait tablets and large phones, 400px and up) */
-@media only screen and (min-width: 400px) {
 
-    /*----------------------------Media Queries-nav-min-width:400px*/
+    /*--------------------------------------------Media Queries-footer-max-width:600px*/
+   
+    .footer-details {
+            padding: 0;
+        
+        }
+    .social-links {
+            margin: 0;
+        }
+   
+   
+
+
+}
+/*----------------------------------------------------------------------------------------Media Queries-min-width:600px*/
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+    /*----------------------------Media Queries-nav-min-width:600px*/
     .name {
         
         font-size: 18px;
@@ -555,7 +584,7 @@ button[type="submit"] {
         
     }
 
-    /*----------------------------Media Queries-jumbotron-min-width:400px*/
+    /*----------------------------Media Queries-jumbotron-min-width:600px*/
 
     .home {
        
@@ -572,8 +601,11 @@ button[type="submit"] {
         font-size: 14px;
         font-weight: 200;
     }
+     .jumbotron-btn {
+    font-size: 14px;
+    }
 
-    /*--------------------------------------------Media Queries-about-min-width:400px*/
+    /*--------------------------------------------Media Queries-about-min-width:600px*/
  
      .about-outer {
         margin-top: 81px;
@@ -607,7 +639,7 @@ button[type="submit"] {
         border: 5px;
         
     }
-    /*--------------------------------------------Media Queries-resume-min-width:400px*/
+    /*--------------------------------------------Media Queries-resume-min-width:600px*/
     .resume-title {
        
         padding: 5px;
@@ -623,7 +655,7 @@ button[type="submit"] {
         font-size: 12px;
     }
 
-    /*--------------------------------------------Media Queries-contact-min-width:400px*/
+    /*--------------------------------------------Media Queries-contact-min-width:600px*/
 
     .contact {
         
@@ -649,8 +681,10 @@ button[type="submit"] {
         padding: 5px;
         font-size: 13px;
     }
+
 }
-/*---------------------------------------------------------------------------------------Media Queries-min-width:768px*/
+
+    /*---------------------------------------------------------------------------------------Media Queries-min-width:768px*/
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
 
@@ -737,6 +771,9 @@ button[type="submit"] {
         font-size: 24px;
         font-weight: 300;
     }
+      .jumbotron-btn {
+    font-size: 24px;
+    }
 
     /*--------------------------------------------about-min-width:768px*/
     .about-nav-outer {
@@ -802,6 +839,7 @@ button[type="submit"] {
 
     .aboutme-text {
         font-size: 20px;
+        text-transform: none;
     }
 
     /*--------------------------------------------resume-min-width:768px*/
@@ -884,8 +922,8 @@ button[type="submit"] {
 
     .resume-personalinfo {
         margin-top: 200px;
-        margin-left: 30px;
-        padding-left: 30px;
+       margin-left:5px;
+        
     }
 
     .personal-info-item {
@@ -944,7 +982,7 @@ button[type="submit"] {
     .resume-title {
         color: #fcba2c;
         text-align: left;
-        padding: 18px;
+        padding: 18px 0px 18px 0px;
         font-weight: 300;
         font-size: 22px;
     }
@@ -985,7 +1023,7 @@ button[type="submit"] {
     }
 
     .aligner-item {
-        max-width: 70%;
+        max-width: 80%;
     }
 
     .contact-title {
@@ -1039,15 +1077,18 @@ button[type="submit"] {
 
     .general-sub {
         font-size: 22px;
-        font-weight: 300;
+        font-weight: 400;
+        text-align: center;
+        
     }
 
     .inline-block {
         font-weight: 300;
+        text-align: center;
     }
 
     .cv-pdf i {
-        font-size: 18px;
+        font-size: 22px;
         color: #cf5e5e;
         text-align: center;
         padding-left: 5px;
@@ -1056,6 +1097,7 @@ button[type="submit"] {
         -moz-transition: all 0.35s ease-in-out;
         -webkit-transition: all 0.35s ease-in-out;
         -o-transition: all 0.35s ease-in-out;
+
     }
 
     .cv-pdf i:hover {
@@ -1063,16 +1105,16 @@ button[type="submit"] {
     }
 
     .social-links {
-        padding-bottom: 10px;
+        padding-bottom: 5px;
     }
 
     .social-links li a i {
-        width: 32px;
-        height: 32px;
+        width: 50px;
+        height: 50px;
         padding: 15px 0;
         border-radius: 50%;
-        font-size: 20px;
-        line-height: 5px;
+        font-size: 30px;
+        line-height: 18px;
         text-align: center;
         color: #e0dddd;
         background: #0e0c0c;
@@ -1086,3 +1128,6 @@ button[type="submit"] {
         background: #dd580b;
     }
 }
+
+
+
