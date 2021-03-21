@@ -44,7 +44,7 @@ I tried to create website as simple as possible and clear outlook  for main purp
 This is Minjung Shin’s personal portfolio. The main aim is clear that deliver Minjung Shin work/career path to target users and attracting their interest. I tried to deliver essential information in related to work and focus to positive user-experience on the site. 
 
 
-![overoll site images](readme/readme-images/description.png)
+![overoll site images](assets/docs/images/description.png)
 
 
 
@@ -74,10 +74,10 @@ Therefore, I want to make the website that users are easily understand and catch
 
 * ### Wireframes
 This website have four pages. The wireframes do not match with my final projext exactly, however, I can say almost as planed. 
- - Landing Page: ![HOME](readme/readme-images/wireframehome.png)
- - Explain about Minjung Shin's generl info Page: ![ABOUT](readme/readme-images/wireframeabout.png)
- - Work history&infomation Page: ![RESUME](readme/readme-images/wireframeresume.png)
- - Contact Page:![CONTACT](readme/readme-images/wireframecontact.png)
+ - Landing Page: ![HOME](assets/docs/images/wireframe-home.png)
+ - Explain about Minjung Shin's generl info Page: ![ABOUT](assets/docs/images/wireframe-about.png)
+ - Work history&infomation Page: ![RESUME](assets/docs/images/wireframe-resume.png)
+ - Contact Page:![CONTACT](assets/docs/images/wireframe-contact.png)
 
 
 ## Features
@@ -149,7 +149,7 @@ texting form data used the [link](https://formdump.codeinstitute.net)
  
   <form action="https://formdump.codeinstitute.net" method="POST">. The input data when to the link and I was able to see the data was send to correctly.
 
- ![form test](readme/readme-images/form-test.png)
+ ![form test](assets/docs/images/form-test.png)
  - Links : I checked all the links directed to desired location. Such as all nav links well linked as well as social links are well too. One thing I would like to metion it is each social link (facebook,linkedin,instagram,wordpress)are real my personal link. I used my real personal link to make the portapolio looks trustworthy. 
  Moreover, link hovered color change to white to birght white, make sure direct user easily. 
 
@@ -170,10 +170,10 @@ texting form data used the [link](https://formdump.codeinstitute.net)
 
 
  - Ensured the website was also responsive on all the pages [Google Mobile Friendly Test](https://search.google.com/test/mobile-friendly?utm_source=gws&utm_medium=onebox&utm_campaign=suit) 
-   - Home ![HOME](readme/readme-images/mobilehome.png)
-   - About ![ABOUT](readme/readme-images/mobileabout.png)
-   - Resume ![RESUME](readme/readme-images/mobileresume.png)
-   - Contact![CONTACT](readme/readme-images/mobilecontact.png)
+   - Home ![HOME](assets/docs/images/mobile-home.png)
+   - About ![ABOUT](assets/docs/images/mobile-about.png)
+   - Resume ![RESUME](assets/docs/images/mobile-resume.png)
+   - Contact![CONTACT](assets/docs/images/mobile-contact.png)
  
   - I tested on Safari,Chrome, Firefox it was performed without issue. 
 
@@ -182,22 +182,22 @@ texting form data used the [link](https://formdump.codeinstitute.net)
 
  #### Validation
  - W3C Markup Validator : I found some error on the valiation, fixed the mistake.
- ![W3C Markup Validator](readme/readme-images/w3cmarkupvalidator.png)
+ ![W3C Markup Validator](assets/docs/images/w3c-markup-validator.png)
  - W3C CSS Vaildator : I wasn't clear about the error. I need further help to fixed the error. 
- ![W3C CSS Validator](readme/readme-images/w3ccssvaildator.png)
+ ![W3C CSS Validator](assets/docs/images/w3c-css-vaildator.png)
 
 #### project bug and solution
-![bug1](readme/readme-images/project-bug1.png)
+![bug1](assets/docs/images/project-bug1.png)
 
 
  I got issue with centric the form from the background images, I tried to reset margin and padding and couldn't sorted the issue. I got help from tutor, advice me use Aligner to centralise . It solved the issue on HOME page and CONTACT page. 
 
 
-![bug2](readme/readme-images/project-bug2.png)
+![bug2](assets/docs/images/project-bug2.png)
 
 I found gap from contaier of section element when screen size went to smaller. I tried to rebuilt the each container as well as div, after work as well as media queries set, problem solved. 
 
-![bug3](readme/readme-images/project-bug3.png)
+![bug3](assets/docs/images/project-bug3.png)
 
 I found issue start from Nav bar grid was set wrongly. It was affected all the grid on body container. I rebuilt all grid on About page, and the issue got sorted. 
 
