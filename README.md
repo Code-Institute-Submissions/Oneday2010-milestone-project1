@@ -52,40 +52,93 @@ This is Minjung Shin’s personal portfolio. The main aim is clear that deliver 
 ### User experience
 ---
 
----
-
-
-
 ### Strategy
 ---
-* ### User stories
 
-#### Main target user : Employer /Client /Recruiter 
-
-
-this website is mainly create to introduce Minjung Shin’s work history/skills and general information which will lead to more job opportunity and building personal portfolio.
-Therefore, I want to make the website that users are easily understand and catch the information that they look for it. 
+ Main target user : Employee /Client /Recruiter 
 
 
+this website is mainly create to introduce Minjung Shin’s work history/skills, general information and building better personal portfolio
+which will lead to more job opportunity and better job experience. Therefore, I want to make the website that users are easily understand and catch the information as  they look for to it. Moreover, it will be the best way to present Minjung Shin’s skill and knowledge  as software developer through this website which will be part of finished project. 
+
+-  Business Goals
+
+Present accurate information related Minjung Shin’s career base
+
+2) Provide professional personal portfolio website for any type of user can find the information easily 
+
+3) keep development  personal skill through the site, offer more engage with user by social media link. Open the more opportunity and deliver simple and strong message to user about job ability and ambition. 
 
 
+4) Answer that most important question “ Why you need to hire me”
 
+ - User Stories
+
+"I want to know what kind of work Minjung Shin has been doing, and what kind of skill she has." 
+
+"There are so many people who want a get a job as software developer, I need to know this person is right person I’m looking for."
+
+"I don’t have time to read all of the CVs, I want to see simple and clear information that she has skill that what I need now."
+
+"I want to be sure that Minjung can do the work as she say on the site . When I check the project she has been doing and has done gave me clear idea." 
+
+"I’m looking for someone has similar style of work and goal. I want to know what type of person she is and what kind of goal she has in professionally ."
 
 
 ### Scope
 ---
 
+ - Requirements
+
+
+ * Collaborator/Recruiter/Employee
+
+There are ability to view skillsets by work history, my skill as well as lists of projects had been done
+Ability to view contact detail on personal info section, social link attached
+Ability to submit project outline - shows clear ability by site present and deliver information what collaborator look for. 
+
 
 ### structure
 ---
 
+This site created simple structure. Focus on providing information what user look for and easily get in touch with Minjung Shin. Nav and Footer is focus allow the user to easily find ways to navigate the whole site and get extra information through the download CV, social media links. 
+Each pages has simple idea and lead to next pages. Welcome the user and explain about Minjung’s work as well as work history, skillset. Finally when user come to contact page, it is more  easier  that  convince user to get in touch.  
+
+
+
+
 
 ### Skeleton
----
+—
+There are some change between original wireframes and final site, however, most of there are same as planned. 
+When I start the site, I want to present my own photo to rise creditability. However I choose all the images more related to work wise. I want to give impression to user that this is more focus on professionally rather than personally.  Name and title will give clear idea about the site concept and choose minimal contacts to deliver only important information to user. I wish all the user found information. All nav and social icons present clear and easily found, try to give consistency through the pages.
+
+
+ #### Wireframes
+This website have four pages. The wireframes do not match with my final projext exactly, however, I can say almost as planed. 
+ - Landing Page: welcoming page
+ 
+  ![HOME](assets/docs/images/wireframe-home.png)
+
+ - Explain about Minjung Shin's generl info and achievement Page: 
+ 
+ ![ABOUT](assets/docs/images/wireframe-about.png)
+
+ - Work history & infomation Page:
+
+  ![RESUME](assets/docs/images/wireframe-resume.png)
+
+ - Contact Page:
+ 
+ ![CONTACT](assets/docs/images/wireframe-contact.png)
+
 
 ### Surface
----
- ### Design
+—
+
+I want to keep the consistency as professional work concept whole the pages. Choose dark background color and white color text tones of nav and footer , So user can easily navigate all the menu. Also, use yellow color of texts to emphasise some of body titles to catch the attention. Try to publish simple and accurate information. Therefore, all the fonts and icons colors are consistence and repeated.  
+
+ #### Design
 
   - Color Scheme : Mainly Black and white. And use bright yellow color to emphasis some of headlines. 
 
@@ -93,22 +146,10 @@ Therefore, I want to make the website that users are easily understand and catch
   - Typography : Mainly  "Exo", sans-serif font and "Roboto", sans-serif font used through out the whole website. I try to make all pages look simple and as same time all the pages have same concept. 
 
 
-  -  Imagery : I used three images. First one with simply and modern style laptop, small illustration of girl and programming hands. I tried to all the concepts are related with each pages. 
+  -  Imagery : I used three images. First one with simply and modern style laptop, small illustration of girl and programming hands. I tried to all the concepts are related professional work concept with each pages. 
 
 
 
-
-
-
-
-
-
-* ### Wireframes
-This website have four pages. The wireframes do not match with my final projext exactly, however, I can say almost as planed. 
- - Landing Page: ![HOME](assets/docs/images/wireframe-home.png)
- - Explain about Minjung Shin's generl info Page: ![ABOUT](assets/docs/images/wireframe-about.png)
- - Work history&infomation Page: ![RESUME](assets/docs/images/wireframe-resume.png)
- - Contact Page:![CONTACT](assets/docs/images/wireframe-contact.png)
 
 
 ## Features
@@ -289,10 +330,16 @@ there are three images I used this site
 
 I received inspiration for this project from 
 
-1) Code institute->User Centric Frontend Development-> mini project ( Resume)
+1) [Code institute](https://learn.codeinstitute.net/ci_program/diplomainsoftwaredevelopment)
+
+User Centric Frontend Development-> mini project ( Resume)
+
 2) Code institute->CSS Essentials->Love Running
+
 3) Code institute->User Centric Frontend Development->Bootstrap4->Whiskey Drop 
+
 4) I got great help from elerel's [readme reference](https://github.com/elerel/ms1-go2snow/blob/master/README.md#overview)
+
 5) My Mentor,Nishant Kumar, and many tutors(Jo,Alan,Scott,Tim) gave me great help throughout this project.
 
 
